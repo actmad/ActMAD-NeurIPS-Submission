@@ -1,0 +1,6 @@
+train: please_change/clear_dataset/train.txt
+val: please_change/rain_dataset/val.txt
+
+nc: 8
+
+names: [ 'Car', 'Van', 'Truck', 'Pedestrian', 'Person_sitting', 'Cyclist', 'Tram', 'Misc' ]

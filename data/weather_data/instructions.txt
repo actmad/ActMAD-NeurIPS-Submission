@@ -1,0 +1,7 @@
+After downloading the respective datasets and dividing them in to folders as described in the README, the paths
+in the individual files need to be altered.
+
+The 'train' path in all the 'yaml' files will be the same, i.e. the path of the clean train set - because
+clean statistics will be calculated from there.
+
+The 'val' path will be different for each experiment - because val.txt, contains the split used for test-time-training.
